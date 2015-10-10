@@ -1,0 +1,79 @@
+.output p {
+    font-size: 21px;
+    text-align: center;
+}
+
+.btn-row {
+    text-align: center;
+/*    background-color: #86E2D5;*/
+/*    padding: 1em;*/
+}
+.btn-row p {
+    margin: 0;
+}
+
+.output {
+    min-height: 80px;
+}
+
+.row {
+    margin: 1.5em auto;
+}
+
+.jumbotron {
+    background-color: #0C9DD1;
+    color: #fff;
+}
+
+body, body * {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn-go {
+  color: #ffffff;
+  background-color: #0C9DD1;
+  border-color: #BAC6DB;
+}
+
+.btn-go:hover,
+.btn-go:focus,
+.btn-go:active,
+.btn-go.active,
+.open .dropdown-toggle.btn-go {
+  color: #ffffff;
+  background-color: #0078A3;
+  border-color: #BAC6DB;
+}
+
+.btn-go:active,
+.btn-go.active,
+.open .dropdown-toggle.btn-go {
+  background-image: none;
+}
+
+.btn-go.disabled,
+.btn-go[disabled],
+fieldset[disabled] .btn-go,
+.btn-go.disabled:hover,
+.btn-go[disabled]:hover,
+fieldset[disabled] .btn-go:hover,
+.btn-go.disabled:focus,
+.btn-go[disabled]:focus,
+fieldset[disabled] .btn-go:focus,
+.btn-go.disabled:active,
+.btn-go[disabled]:active,
+fieldset[disabled] .btn-go:active,
+.btn-go.disabled.active,
+.btn-go[disabled].active,
+fieldset[disabled] .btn-go.active {
+  background-color: #0C9DD1;
+  border-color: #BAC6DB;
+}
+
+.btn-go .badge {
+  color: #0C9DD1;
+  background-color: #ffffff;
+}
+.container {
+    width: 680px;
+}
