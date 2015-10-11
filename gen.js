@@ -16,7 +16,7 @@ $(document).ready(function () {
                 // generate 3 random numbers
                 x = Math.floor(Math.random() * lines.length);
             };
-            $(".result-" + i).text(lines[x]); // use a number instead of x
+            $(".result-" + i).html(lines[x]); // use a number instead of x
         };
     });
 });
